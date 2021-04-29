@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="google-signin-client_id" content="1076229678650-qm4h896mgn077r9hooua7bb2vffuoab2.apps.googleusercontent.com">
+  <title>Random Food Generator</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/83c400c9bd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- register form -->
+  <div class="container">
+    <div class="row content">
+      <div class="col-md-6 mb-3">
+        <img src="assets/register.svg" alt="register image" class="img-fluid">
+      </div>
+      <div class="col-md-6">
+        <h3 class="register-text mb-3">Register</h3>
+        <form>
+          <div class="form-group">
+            <input type="text" name="firstName" id="firstName" placeholder="Your First Name" class="form-control">
+          </div>
+          <div class="form-group">
+            <input type="text" name="lastName" id="lastName" placeholder="Your Last Name" class="form-control">
+          </div>
+          <div class="form-group">
+            <input type="email" name="email" id="email" placeholder="Your Email" class="form-control">
+          </div>
+          <div class="form-group">
+            <input type="password" name="password" id="password" placeholder="Your Password" class="form-control">
+          </div>
+          <!-- <div class="form-group form-check">
+            <input type="checkbox" name="checkbox" class="form-check-input" id="checkbox" class="form-control">
+            <label for="checkbox" class="form-check-label">Remember Me</label>
+          </div> -->
+          <button class="btn btn-class">Register</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- register form -->
+
+  <!-- login form -->
+  <div class="container">
+    <div class="row content">
+      <div class="col-md-6 mb-3">
+        <img src="assets/login.svg" alt="login image" class="img-fluid">
+      </div>
+      <div class="col-md-6">
+        <h3 class="login-text mb-3">Log In</h3>
+        <form>
+          <!-- <div class="form-group">
+            <input type="text" name="firstName" id="firstName" placeholder="Your First Name" class="form-control">
+          </div>
+          <div class="form-group">
+            <input type="text" name="lastName" id="lastName" placeholder="Your Last Name" class="form-control">
+          </div> -->
+          <div class="form-group">
+            <input type="email" name="login-email" id="login-email" placeholder="Your Email" class="form-control">
+          </div>
+          <div class="form-group">
+            <input type="password" name="login-password" id="login-password" placeholder="Your Password" class="form-control">
+          </div>
+          <div class="form-group form-check">
+            <input type="checkbox" name="checkbox" class="form-check-input" id="checkbox" class="form-control">
+            <label for="checkbox" class="form-check-label">Remember Me</label>
+          </div>
+          <button class="btn btn-class">Log In</button>
+          <p class="text-left" style="padding-top: 15px;">or</p>
+          <div class="g-signin2" data-onsuccess="onSignIn" data-theme="light" data-longtitle="true"></div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- login form -->
+
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="index.html"></script>
+</body>
+</html>
