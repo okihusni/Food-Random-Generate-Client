@@ -78,6 +78,64 @@
   </div>
   <!-- login form -->
 
+  <!-- random food -->
+  <div class="container">
+    <div class="row-content">
+      <div class="col d-flex justify-content-center">
+        <div class="card">
+          <img src="https://spoonacular.com/recipeImages/642660-556x370.jpg" alt="Fennel and Orange Salad With Toasted Hazelnuts and Cranberries" class="card-img-top" style="padding-top: 30px;">
+          <div class="card-body">
+            <h5 class="card-title" style="text-align: center; padding-top: 10px;">Fennel and Orange Salad With Toasted Hazelnuts and Cranberries</h5>
+            <div class="card-after-title">
+              <div>
+                <label for="servings">
+                  Servings:
+                  <!-- ambil value serving aja -->
+                  <h6 class="card-servings">4 servings</h6>
+                </label>
+              </div>
+              <div>
+                <label for="diets">
+                  Diets:
+                  <!-- ambil values dari Diets, diolah agar tanpa tanda petik dan spasi setelah koma -->
+                  <h6 class="card-diets">Gluten free, dairy free, paleolithic, lacto ovo vegetarian, primal, vegan</h6>
+                </label>
+              </div>
+              <div>
+                <!-- ambil value ingredients, equipment, dan instruction dari analyzedInstruction -->
+                <label for="ingredients">
+                  Ingredients:
+                    <!-- ambil name ingredients dari tiap steps nya, di join -->
+                    <h6>orange, fennel bulb, olive oil, vinegar, pepper, salt, hazelnuts, toast, vinaigrette, fennel, dried cranberries</h6>
+                </label>
+              </div>
+              <div>
+                <label for="instruction">
+                  Instruction:
+                  <h6>
+                    <ol>
+                      <!-- ambil value step dari steps -->
+                      <li>Finely grate enough zest from the orange to measure 1/2 tablespoon.</li>
+                      <li>Cut peel, including all white pith, from the orange with a paring knife. Then cut segments free from membranes.</li>
+                      <li>Cut out and discard core of fennel bulb, then cut bulbs crosswise into very thin slices, as thin as you can get them.</li>
+                      <li>Whisk together vinegar, zest, salt, and pepper in a small bowl until salt is dissolved, then add olive oil slowly in a stream, whisking until combined well.</li>
+                      <li>Toast hazelnuts on medium heat on a dry skillet.</li>
+                      <li>Toss fennel and oranges with vinaigrette in a large bowl until combined well.</li>
+                      <li>Top with toasted hazelnuts and dried cranberries.</li>
+                      <li>Garnish with a few fennel fronds.</li>
+                    </ol>
+                  </h6>
+                </label>
+              </div>
+            </div>
+            <button class="btn btn-class" style="float:right">go somewhere</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- random food -->
+
   <script src="https://apis.google.com/js/platform.js" async defer></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
