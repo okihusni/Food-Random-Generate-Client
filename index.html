@@ -13,31 +13,31 @@
 <body>
 
   <!-- register form -->
-  <div class="container">
+  <div id="register" class="container">
     <div class="row content">
       <div class="col-md-6 mb-3">
         <img src="assets/register.svg" alt="register image" class="img-fluid">
       </div>
       <div class="col-md-6">
         <h3 class="register-text mb-3">Register</h3>
-        <form>
+        <form id="form-register">
           <div class="form-group">
-            <input type="text" name="firstName" id="firstName" placeholder="Your First Name" class="form-control">
+            <input type="text" name="firstName" id="firstNameRegister" placeholder="Your First Name" class="form-control">
           </div>
           <div class="form-group">
-            <input type="text" name="lastName" id="lastName" placeholder="Your Last Name" class="form-control">
+            <input type="text" name="lastName" id="lastNameRegister" placeholder="Your Last Name" class="form-control">
           </div>
           <div class="form-group">
-            <input type="email" name="email" id="email" placeholder="Your Email" class="form-control">
+            <input type="email" name="email" id="emailRegister" placeholder="Your Email" class="form-control">
           </div>
           <div class="form-group">
-            <input type="password" name="password" id="password" placeholder="Your Password" class="form-control">
+            <input type="password" name="password" id="passwordRegister" placeholder="Your Password" class="form-control">
           </div>
           <!-- <div class="form-group form-check">
             <input type="checkbox" name="checkbox" class="form-check-input" id="checkbox" class="form-control">
             <label for="checkbox" class="form-check-label">Remember Me</label>
           </div> -->
-          <button class="btn btn-class">Register</button>
+          <button class="btn btn-class" type="submit">Register</button>
         </form>
       </div>
     </div>
@@ -45,14 +45,14 @@
   <!-- register form -->
 
   <!-- login form -->
-  <div class="container">
+  <div id="login" class="container">
     <div class="row content">
       <div class="col-md-6 mb-3">
         <img src="assets/login.svg" alt="login image" class="img-fluid">
       </div>
       <div class="col-md-6">
         <h3 class="login-text mb-3">Log In</h3>
-        <form>
+        <form id="form-login">
           <!-- <div class="form-group">
             <input type="text" name="firstName" id="firstName" placeholder="Your First Name" class="form-control">
           </div>
@@ -60,16 +60,16 @@
             <input type="text" name="lastName" id="lastName" placeholder="Your Last Name" class="form-control">
           </div> -->
           <div class="form-group">
-            <input type="email" name="login-email" id="login-email" placeholder="Your Email" class="form-control">
+            <input type="email" name="login-email" id="emailLogin" placeholder="Your Email" class="form-control">
           </div>
           <div class="form-group">
-            <input type="password" name="login-password" id="login-password" placeholder="Your Password" class="form-control">
+            <input type="password" name="login-password" id="passwordLogin" placeholder="Your Password" class="form-control">
           </div>
           <div class="form-group form-check">
             <input type="checkbox" name="checkbox" class="form-check-input" id="checkbox" class="form-control">
             <label for="checkbox" class="form-check-label">Remember Me</label>
           </div>
-          <button class="btn btn-class">Log In</button>
+          <button class="btn btn-class" type="submit">Log In</button>
           <p class="text-left" style="padding-top: 15px;">or</p>
           <div class="g-signin2" data-onsuccess="onSignIn" data-theme="light" data-longtitle="true"></div>
         </form>
